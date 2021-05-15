@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+</head>
+
+<body bgcolor=#08A6E8>
+<form name="contact" method="POST" data-netlify="true">
+  <table width="44%" border="2" align="center" cellpadding="10" cellspacing="10" bgcolor="white">
+    <tbody>
+      <tr>
+        <td><strong>Nombre</strong></td>
+        <td>  <input type="text" name="Nombre" id="Nombre"></td>
+      </tr>
+      <tr>
+        <td><strong>Apellido Paterno</strong></td>
+        <td><input type="text" name="ApellidoPaterno" id="ApellidoPaterno"></td>
+      </tr>
+      <tr>
+        <td><strong>Apellido Materno</strong></td>
+        <td><input type="text" name="ApellidoMaterno" id="ApellidoMaterno"></td>
+      </tr>
+      <tr>
+        <td><strong>Correo Electrónico</strong></td>
+        <td><input type="email" name="email" id="email"></td>
+      </tr>
+      <tr>
+        <td><strong>Número de Teléfono</strong></td>
+        <td><input type="number" name="Teléfono" id="Teléfono"></td>
+      </tr>
+      <tr>
+        <td><strong>Código Postal</strong></td>
+        <td><input type="number" name="CodigoPostal" id="CodigoPostal"></td>
+      </tr>
+      <tr>
+        <td><strong>Fecha de Nacimiento</strong></td>
+        <td><input type="date"></td>
+      </tr>
+      <tr>
+        <td><strong>Lugar de Nacimiento</strong></td>
+        <td><input type="text" name="textfield" id="textfield"></td>
+      </tr>
+      <tr>
+        <td><strong>Estado Civil</strong></td>
+        <td>Actualmente me encuentro:
+          <select name="select" id="select">
+            <option>Casad@</option>
+            <option selected="selected">Solter@</option>
+            <option>Viud@</option>
+            <option>Divorciad@</option>
+            <option>En una relación</option>
+        </select></td>
+      </tr>
+      <tr>
+        <td><strong>¿Te gustan las clases a distancia?</strong></td>
+        <td><input type="radio" name="radio" id="radio" value="radio">
+        <label for="radio2">Si
+          <input type="radio" name="radio" id="radio2" value="radio2">
+          No
+        </label></td>
+      </tr>
+      <tr>
+        <td><strong>¿Cúal es la materia que mas te gusta?</strong></td>
+        <td><label for="MateriaMasGustada">Es:</label>
+          <select name="MateriaMasGustada" id="MateriaMasGustada">
+            <option selected="selected">S1M3Pr</option>
+            <option>Inglés IV</option>
+            <option>S2M3Pr</option>
+            <option>Física I</option>
+            <option>Ecología</option>
+            <option>S3M3Pr</option>
+            <option>Cálculo Diferencial</option>
+        </select></td>
+      </tr>
+      <tr>
+        <td><strong>¿Cúal es la materia que menos te gusta?</strong></td>
+        <td>Es:
+          <select name="MateriaMenosGustada" id="MateriaMenosGustada">
+          <option selected="selected">S1M3Pr</option>
+          <option>Inglés IV</option>
+          <option>S2M3Pr</option>
+          <option>Física I</option>
+          <option>Ecología</option>
+          <option>S3M3Pr</option>
+          <option>Cálculo Diferencial</option>
+        </select></td>
+      </tr>
+      <tr>
+        <td><strong>Tu pasa tiempo luego de terminar las clases</strong></td>
+        <td><input type="text" name="PasaTiempo" id="PasaTiempo"></td>
+      </tr>
+      <tr>
+        <td><strong>¿Te gusta la especialidad?</strong></td>
+        <td><input type="radio" name="radio2" id="radio3" value="radio">
+          <label for="radio3">Si
+            <input type="radio" name="radio2" id="radio4" value="radio2">
+        No</label></td>
+      </tr>
+      <tr>
+        <td><strong>Qué prefieres usar mas Google Meet o Zoom?</strong></td>
+        <td><p>
+          <label>
+            <input type="radio" name="Preferencia" value="opción" id="Preferencia_0">
+            Google Meet</label>
+          <br>
+          <label>
+            <input type="radio" name="Preferencia" value="opción" id="Preferencia_1">
+            Zoom</label>
+          <br>
+        </p></td>
+      </tr>
+      <tr>
+        <td><input type="submit" name="submit" id="submit" value="Enviar"></td>
+        <td><input type="reset" name="reset" id="reset" value="Restablecer"></td>
+      </tr>
+    </tbody>
+  </table>
+</form>
+</body>
+</html>
